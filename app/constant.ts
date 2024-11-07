@@ -436,6 +436,7 @@ export const DEFAULT_MODELS = [
       sorted: 3,
     },
   })),
+  /**
   ...anthropicModels.map((name) => ({
     name,
     available: true,
@@ -535,6 +536,7 @@ export const DEFAULT_MODELS = [
       sorted: 12,
     },
   })),
+  */
 ] as const;
 
 export const CHAT_PAGE_SIZE = 15;
